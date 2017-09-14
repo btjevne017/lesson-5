@@ -13,26 +13,34 @@
  </head>
     
     <body>
-    
-<div id="container">
-            <header id="header">
+        <div class='row'> 
+            <div class='col-12 border'>
+                  <header id="header">
                 
         <h1>web ninja</h1>
                 
                 
      </header> 
+            </div>
         
-          <nav id="nav">
+        </div>
+        <!--end header-->
+        <div class='row'>
+            <div class="col-12 border">
+            <nav id='nav'>
                 <ul class='button-wrap'>
-                    <button>schedule</button>
-                    <button>CSS</button>
-                    <button>HTML</button>
-                    <button>Responsive design</button>
-              </ul>
-            </nav>
+                        <button>schedule</button>
+                        <button>CSS</button>
+                        <button>HTML</button>
+                        <button>Responsive design</button>
+                    </ul> 
+                
+                </nav>
+                </div>
+        </div>
             
-            <div id="middle-wrapper">
-               <div id="middle-wrapper-width">
+            <div class='row'>
+               <div class="col-8 border">
                     <div id='main-content-wrapper'>
                         <div class="side-by-side">
                             <section class="image-content">
@@ -59,7 +67,9 @@
                         </section>
                    
                    </div>
+                </div>
                 <!--end main-content-wrapper-->
+                   <div class='col-4 border'>
                    <div id= "aside-content-wrapper">
                         <aside id='aside-right'>
                             <h3>latest work</h3>
@@ -76,24 +86,31 @@
                    </div> 
                    <!--end aside-content-wrapper-->
                    
-                    <!--end max-width-->
+                   
                     </div>
                     <!--end middle-wrapper-->
                 
         </div>
         
         
-            <div id="favorite-sites">
-             <ul>
-                <li><img src='images/facebook.png'></li>
-                <li><img src='images/google.png'></li>
-                <li><img src='images/instagram.png'></li>
-            </ul>
-    
-       </div>
-
-<!--end of container-->
-<footer><h1>footy</h1></footer>        
+            <div id="favorite-sites" class='row'>
+            
+               <div class='col-4 border'>
+                   <img src='images/facebook.png'>
+                </div>
+                <div class='col-4 border'>
+                <img src='images/google.png'>
+                </div>
+                <div class='col-4 border'>
+              <img src='images/instagram.png'>
+                </div>
+        
+        </div>
+        <div class='row'>
+            <div class='col-12 border'>
+               <footer><h1>footy</h1></footer> 
+            </div>
+        </div>
     
     <script src="js/main.js"></script>
 
