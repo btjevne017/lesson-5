@@ -28,7 +28,7 @@ body {
     margin: 0;
     
 }
-/*vid 5 7 27*/
+
 #nav > ul > button{
            min-width: 178px;
     color: #fff;
@@ -36,7 +36,7 @@ body {
     border: none;
     padding: 15px 32px;
     transition: background-color .25s;
-        border-bottom: 1px solid #307ecc;
+    border-bottom: 2px solid #307ecc;
 } 
 
 #nav > ul > button:hover {
